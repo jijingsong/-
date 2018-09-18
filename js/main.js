@@ -9,11 +9,12 @@ let str1 = ` /*
         transition: all 1s
     }
     body {
-        background: #eee;
-        font-size: 16px;
+        background: #455A64;
+        font-size: 15px;
     }
     #code {
         border: 1px solid #aaa;
+        background-color: #CFD8DC;
         padding: 15px;
         overflow: scroll;
         padding-bottom: 100px;
@@ -129,6 +130,8 @@ let str4 = `
     * 完成
     * 感谢您的观看
     */
+
+    
 `
 
 writeCode('', str1, () => {
