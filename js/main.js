@@ -1,5 +1,5 @@
 let str1 = ` /* 
-    * 面试官你好，我是XXX
+    * 面试官你好，我叫季靖松
     * 只用文字作做我介绍太单调了
     * 我就用代码来介绍吧
     * 首先准备一些样式
@@ -57,43 +57,51 @@ let str2 = `
 let md = `
 # 自我介绍
 ----
-我叫 XXX
-1990 年 1 月出生
-XXX 学校毕业
+我叫 季靖松
+1993 年 7 月出生
+毕业于吉林大学
+16届 电子科学与技术专业
 自学前端半年
 希望应聘前端开发岗位
+
 # 技能介绍
 ----
-熟悉 JavaScript CSS
-# 项目介绍
-----
-1. XXX 轮播
-2. XXX 简历
-3. XXX 画板
+熟悉Vue.js框架、Vue全家桶
+熟悉 HTML、CSS、JavaScript
+熟悉 jQuery 常用 API ，如 DOM 操作、特效、事件等
+掌握 Scss 、 Less 的使用
+会使用 REM 、 vw / vh 、 媒体查询等技术制作适配手机设备的页面
+掌握 HTTP 基础
 
 # 项目介绍
 ----
-1. XXX 轮播
-2. XXX 简历
-3. XXX 画板
+1. Vue重构移动端商城
+2. Vue实现todolist
+3. 我的画板
+4. 键盘网站导航
+5. 会动的简历
+6. 我的在线简历
 
 # 项目介绍
 ----
-1. XXX 轮播
-2. XXX 简历
-3. XXX 画板
+1. Vue重构移动端商城
+2. Vue实现todolist
+3. 我的画板
+4. 键盘网站导航
+5. 会动的简历
+6. 我的在线简历
 
 # 联系方式
 ----
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
+- QQ 787827925
+- Email 787827925@qq.com
+- 手机 17301157336
 
 # 联系方式
 ----
-- QQ xxxxxxxx
-- Email xxxxxxxx
-- 手机 xxxxxxx
+- QQ 787827925
+- Email 787827925@qq.com
+- 手机 17301157336
 
 
 `
@@ -131,7 +139,7 @@ let str4 = `
     * 感谢您的观看
     */
 
-    
+
 `
 
 writeCode('', str1, () => {
