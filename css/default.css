@@ -32,9 +32,9 @@
 
 @-webkit-keyframes breathing {
     0% {
-        box-shadow: 0px 1px 1px rgb(32, 31, 31);
+        box-shadow: 0px 1px -1px rgb(239, 241, 76);
     }
-    70% {
-        box-shadow: 0px 1px 15px rgb(32, 31, 31);
+    60% {
+        box-shadow: 1px 1px 25px rgb(239, 241, 76);
     }
 }
